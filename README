@@ -1,0 +1,13 @@
+The goal of this project is to create C++ classes and functions that will 
+assist programers in solving projectEuler problems. 
+
+Files in the project will never give solutions to any problems. They are here 
+to provide easy functionality to C++ users that other high level languages 
+already support.
+
+All classes are designed around SGI's STL for easy portability between
+operating systems.
+
+Documentation on the classes can be found at:
+   http://www.notebookcache.com/euler/html/
+
