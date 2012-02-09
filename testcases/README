@@ -1,0 +1,11 @@
+Tested on a 2.7GHz machine. Centos 6.0.
+
+- testcases_Primes.cpp
+     * Should finish quickly with no failed asserts
+
+- testcases_BigInt.cpp
+     * most test cases should finish in reasonable amount of time.
+     * addition and subtraction should take less than 10 seconds a piece
+     * multiplication takes around 35 seconds on my machine
+     * total time to finish around 45 seconds
+
