@@ -35,17 +35,21 @@ DAMAGE.
 #define __EULER_EULER_HELPER_FUNCTIONS_H__
 
 #include <vector>
+#include <sstream>
 
 namespace projecteuler {
 
-  // class for primes
-  //  primes from to
-  //  iterator over prime numbers
-  //  get prime after 
-  //  verify number is prime
+  /*!
+    A generic function to turn variables into strings. Can be used on
+    integers, char*s, etc.
+  */
+  template <class T>
+    std::string to_string(T val) {
 
-
-  // GCD
+    std::stringstream ss;
+    ss << val;
+    return ss.str();
+  }
 
   /*!
     Basic binary search algorithm. Does not check that list is sorted
@@ -67,14 +71,13 @@ namespace projecteuler {
 
     } while(vec[mid] != key && min <= max);
 
-    pos = mid;
     return vec[mid] == key;
   }
 
-  // pandigital -- templatize it (not going to implement)
 
+  // possibly implement later
   // factorization
-  
+  // GCD
 }
 
 #endif
