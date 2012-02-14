@@ -33,7 +33,7 @@
 
 GCC = g++
 GCC_FLAGS = -w -Wall -Werror
-EULER_PATH = ../src
+EULER_PATH = SET ME
 
 
 # Do not modify below line
